@@ -344,7 +344,7 @@ class TRFeat_occjoint(nn.Module):
 
 class TRFeat_irr_occjoint(nn.Module):
     def __init__(self, args, div_flow=0.05):
-        super(TRFeat_irr_occjoint_bis, self).__init__()
+        super(TRFeat_irr_occjoint, self).__init__()
         self.args = args
         self._div_flow = div_flow
         self.search_range = 4
